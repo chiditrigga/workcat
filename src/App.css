@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body{
+  background: hsl(185, 41%, 84%) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bb{
+  border-right: none !important;
+  background: hsl(0, 0%, 100%) !important;
+}
+.white{
+  background: hsl(0, 0%, 100%) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.whitet{
+  color: hsl(0, 0%, 100%) !important;
+}
+.main{
+  border: 1px solid hsl(0, 0%, 100%) !important;
+  border-radius: 20px !important;
+  max-width: 1100px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.person{
+  color: hsl(186, 14%, 43%) !important;
 }
 
-.App-link {
-  color: #61dafb;
+
+.tip{
+  color:  hsl(172, 67%, 45%) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.darkcrayn{
+  background: hsl(183, 100%, 15%) !important; 
+  border-radius: 10px !important;
 }
+
+Button:hover{
+  background:  hsl(185, 41%, 84%) !important;
+  border-color:  hsl(185, 41%, 84%) !important;
+  color: hsl(183, 100%, 15%) !important;
+  
+}
+
+
+
+.lll{
+  border-left: none !important;
+  background: white !important;
+}
+
+.ccc{
+  border-left: none !important;
+}
+
+.dar{
+  background: hsl(183, 100%, 15%) !important;
+  border-color: hsl(183, 100%, 15%) !important;
+  
+}
+
+.custom{
+  cursor:pointer !important;
+  
+}
+
