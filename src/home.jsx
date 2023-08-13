@@ -56,7 +56,7 @@ const reset = () => {
               <Row className='main white p-4 d-flex justify-content-start'>
                 <Col md={6} >
                     <Form>
-                        <Form.Label htmlFor="disabledTextInput" className='person'>BILLs</Form.Label>
+                        <Form.Label htmlFor="disabledTextInput" className='person'>BILL</Form.Label>
      
                         <InputGroup className="mb-3">
         <InputGroup.Text className='bb' ><Image src={dollar} /></InputGroup.Text>        <Form.Control  placeholder='0' className='text-end ccc' value={bill} onChange={ e => setBill( e.target.value) } aria-label="Amount (to the nearest dollar)" />
